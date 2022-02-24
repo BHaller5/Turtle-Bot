@@ -14,14 +14,20 @@ client.once('ready', async () => {
             // command id
             id: '945491744177401886',
             permissions: [{
-                // role id
+                // role id (lovesMatt)
                 id: '654526941193437195',
                 type: 'ROLE',
-                permission: false
+                permission: true
             },
             {
-                // user id
+                // user id (me)
                 id: '142754694551437312',
+                type: 'USER',
+                permission: true
+            },
+            // sozy
+            {
+                id: '126123441823678464',
                 type: 'USER',
                 permission: true
             }],
